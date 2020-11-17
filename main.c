@@ -75,5 +75,7 @@ int main() {
 		printf("Random Number %d: %d\n", i + 1, test_array[i]);
 	}
 
+	close(read_file);
+	
 	return 0;
 }
